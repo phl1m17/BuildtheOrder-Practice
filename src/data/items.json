@@ -5,7 +5,6 @@
       "mustard",
       "ketchup",
       "pickle",
-      "pickle",
       "cheese",
       "10:1 patty",
       "plain buns"
@@ -13,22 +12,13 @@
   },
   {
     "name": "Hamburger",
-    "ingredients": [
-      "mustard",
-      "ketchup",
-      "pickle",
-      "pickle",
-      "10:1 patty",
-      "plain buns"
-    ]
+    "ingredients": ["mustard", "ketchup", "pickle", "10:1 patty", "plain buns"]
   },
   {
     "name": "Double Cheeseburger",
     "ingredients": [
       "mustard",
       "ketchup",
-      "pickle",
-      "pickle",
       "pickle",
       "pickle",
       "cheese",
@@ -105,8 +95,6 @@
       "slivered onions",
       "pickle",
       "pickle",
-      "pickle",
-      "pickle",
       "cheese",
       "cheese",
       "4:1 patty",
@@ -127,6 +115,7 @@
       "cheese",
       "mayo",
       "4:1 patty",
+      "tomato",
       "quarter pounder buns"
     ]
   },
@@ -225,7 +214,8 @@
       "cucumber",
       "cucumber",
       "shredded lettuce",
-      "chicken"
+      "chicken",
+      "thai sauce"
     ]
   },
   {
