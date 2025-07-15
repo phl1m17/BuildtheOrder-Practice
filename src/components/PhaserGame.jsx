@@ -43,10 +43,7 @@ class StartScene extends Phaser.Scene {
   preload() {
     for (let i = 0; i < 30; i++) {
       const index = i.toString().padStart(2, "0");
-      this.load.image(
-        `ingredient${index}`,
-        `src/assets/ingredients/ingredients${index}.png`
-      );
+      this.load.image(`ingredient${index}`, `assets/ingredients${index}.png`);
     }
   }
 
