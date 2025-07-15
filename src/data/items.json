@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Cheeseburger",
+    "ingredients": [
+      "mustard",
+      "ketchup",
+      "pickle",
+      "pickle",
+      "cheese",
+      "10:1 patty",
+      "plain buns"
+    ]
+  },
+  {
+    "name": "Hamburger",
+    "ingredients": [
+      "mustard",
+      "ketchup",
+      "pickle",
+      "pickle",
+      "10:1 patty",
+      "plain buns"
+    ]
+  },
+  {
+    "name": "Double Cheeseburger",
+    "ingredients": [
+      "mustard",
+      "ketchup",
+      "pickle",
+      "pickle",
+      "pickle",
+      "pickle",
+      "cheese",
+      "cheese",
+      "10:1 patty",
+      "10:1 patty",
+      "plain buns"
+    ]
+  },
+  {
+    "name": "McDouble",
+    "ingredients": [
+      "mustard",
+      "ketchup",
+      "pickle",
+      "pickle",
+      "cheese",
+      "10:1 patty",
+      "10:1 patty",
+      "plain buns"
+    ]
+  },
+  {
+    "name": "Big Mac",
+    "ingredients": [
+      "bigmac buns",
+      "mac sauce",
+      "mac sauce",
+      "shredded lettuce",
+      "shredded lettuce",
+      "pickle",
+      "pickle",
+      "cheese",
+      "10:1 patty",
+      "10:1 patty"
+    ]
+  },
+  {
+    "name": "Double Big Mac",
+    "ingredients": [
+      "bigmac buns",
+      "mac sauce",
+      "mac sauce",
+      "shredded lettuce",
+      "shredded lettuce",
+      "pickle",
+      "pickle",
+      "cheese",
+      "10:1 patty",
+      "10:1 patty",
+      "10:1 patty",
+      "10:1 patty"
+    ]
+  },
+  {
+    "name": "Quarter Pounder",
+    "ingredients": [
+      "ketchup",
+      "mustard",
+      "slivered onions",
+      "pickle",
+      "pickle",
+      "cheese",
+      "cheese",
+      "4:1 patty",
+      "quarter pounder buns"
+    ]
+  },
+  {
+    "name": "Double Quarter Pounder",
+    "ingredients": [
+      "ketchup",
+      "mustard",
+      "slivered onions",
+      "pickle",
+      "pickle",
+      "pickle",
+      "pickle",
+      "cheese",
+      "cheese",
+      "4:1 patty",
+      "4:1 patty",
+      "quarter pounder buns"
+    ]
+  },
+  {
+    "name": "Quarter Pounder BLT",
+    "ingredients": [
+      "ketchup",
+      "mustard",
+      "slivered onions",
+      "pickle",
+      "pickle",
+      "leaf lettuce",
+      "bacon",
+      "cheese",
+      "mayo",
+      "4:1 patty",
+      "quarter pounder buns"
+    ]
+  },
+  {
+    "name": "Jr Chicken",
+    "ingredients": ["plain buns", "mayo", "shredded lettuce", "jr chicken"]
+  },
+  {
+    "name": "McChicken",
+    "ingredients": [
+      "quarter pounder buns",
+      "mayo",
+      "shredded lettuce",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Habanero McChicken",
+    "ingredients": [
+      "quarter pounder buns",
+      "habanero sauce",
+      "shredded lettuce",
+      "chicken"
+    ]
+  },
+  {
+    "name": "McCrispy",
+    "ingredients": ["potato buns", "crispy chicken", "mayo", "shredded lettuce"]
+  },
+  {
+    "name": "McCrispy Bacon Deluxe",
+    "ingredients": [
+      "potato buns",
+      "crispy chicken",
+      "bacon",
+      "shredded lettuce",
+      "tomato",
+      "mayo"
+    ]
+  },
+  {
+    "name": "Sweet Chili",
+    "ingredients": [
+      "plain buns",
+      "mayo",
+      "shredded lettuce",
+      "jr chicken",
+      "thai sauce"
+    ]
+  },
+  {
+    "name": "Filet-O-Fish",
+    "ingredients": ["plain buns", "tartar sauce", "cheese", "filet"]
+  },
+  {
+    "name": "Double Filet",
+    "ingredients": ["plain buns", "tartar sauce", "cheese", "filet", "filet"]
+  },
+  {
+    "name": "Snackwraps Ranch",
+    "ingredients": [
+      "small tortilla shell",
+      "ranch",
+      "shredded lettuce",
+      "shredded cheese",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Happy Meal Snack Wrap",
+    "ingredients": [
+      "small tortilla shell",
+      "mayo",
+      "shredded lettuce",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Chipotle Wrap",
+    "ingredients": [
+      "big tortilla shell",
+      "chipotle sauce",
+      "tomato",
+      "tomato",
+      "shredded lettuce",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Sweet Chili Wrap",
+    "ingredients": [
+      "big tortilla shell",
+      "mayo",
+      "cucumber",
+      "cucumber",
+      "cucumber",
+      "cucumber",
+      "shredded lettuce",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Chicken Bacon Wrap",
+    "ingredients": [
+      "big tortilla shell",
+      "mayo",
+      "bacon",
+      "tomato",
+      "tomato",
+      "shredded lettuce",
+      "chicken"
+    ]
+  }
+]
