@@ -43,7 +43,8 @@ class StartScene extends Phaser.Scene {
   preload() {
     for (let i = 0; i < 30; i++) {
       const index = i.toString().padStart(2, "0");
-      this.load.image(`ingredient${index}`, `assets/ingredients${index}.png`);
+      const key = `ingredient${index}`;
+      this.load.image(key, `assets/ingredients${index}.png`);
     }
   }
 
@@ -105,12 +106,10 @@ class GameScene extends Phaser.Scene {
     const startY = 232;
 
     this.selectedIngredients = [];
-
     this.selectedTextGroup = this.add.group();
 
     const updateSelectedListDisplay = () => {
       this.selectedTextGroup.clear(true, true);
-
       const maxWidth = 700;
       let x = 50;
       let y = 100;
@@ -183,6 +182,7 @@ class GameScene extends Phaser.Scene {
       const x = startX + col * spacingX;
       const y = startY + row * spacingY;
       const index = i.toString().padStart(2, "0");
+      const key = `ingredient${index}`;
 
       const bg = this.add
         .rectangle(x, y, 48, 48, 0xf0f0f0)
@@ -190,9 +190,11 @@ class GameScene extends Phaser.Scene {
       bg.setOrigin(0.5);
 
       const img = this.add
-        .image(x, y, `ingredient${index}`)
+        .image(x, y, key)
         .setScale(3)
         .setInteractive({ useHandCursor: true });
+
+      img.customKey = key;
 
       img.on("pointerover", () => {
         bg.setFillStyle(0xfff3b0);
@@ -203,7 +205,7 @@ class GameScene extends Phaser.Scene {
       });
 
       img.on("pointerdown", () => {
-        const ingredientName = ingredientMap[img.texture.key];
+        const ingredientName = ingredientMap[img.customKey];
         this.selectedIngredients.push(ingredientName);
         updateSelectedListDisplay();
       });
@@ -241,11 +243,9 @@ class GameScene extends Phaser.Scene {
     checkButton.on("pointerdown", () => {
       const playerSorted = [...this.selectedIngredients].sort();
       const correctSorted = [...this.randomBurger.ingredients].sort();
-
       const success =
         playerSorted.length === correctSorted.length &&
         playerSorted.every((val, i) => val === correctSorted[i]);
-
       if (success) {
         alert("✅ Correct! Starting new order...");
         this.scene.restart();
