@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "predeploy": "astro build && echo > docs/.nojekyll",
-    "deploy": "git add docs && git commit -m 'Deploy' && git push"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/react": "^4.3.0",
