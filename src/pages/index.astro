@@ -4,39 +4,44 @@ import PhaserGame from '../components/PhaserGame.jsx';
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Build the Order</title>
-  </head>
-  <body>
-    <h1 style="text-align: center;">🍔 Build the McDonald's Order!</h1>
-    <PhaserGame client:only="react" />
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Build the Order</title>
+	</head>
+	<body>
+		<header>
+			<h1 style="text-align: center;">🍔 Build the McDonald's Order!</h1>
+		</header>
+		<main>
+			<PhaserGame client:only="react" />
+		</main>
+	</body>
+	<footer>
+		<p>© {new Date().getFullYear()} philm.dev — All rights reserved.</p>
+	</footer>
 </html>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
-    * {
-      	box-sizing: border-box;
-      	margin: 0;
-      	padding: 0;
-    }
+	html, body, #phaser-container {
+		margin: 0;
+		padding: 0;
+	}
 
     body {
       	font-family: 'Rubik', sans-serif;
       	background: #ffff;
       	color: #333;
-      	min-height: 100vh;
       	display: flex;
       	flex-direction: column;
       	align-items: center;
       	justify-content: flex-start;
-      	padding: 2rem;
+      	padding: 0px 2rem;
     }
     h1 {
       	font-size: 2.5rem;
-      	margin-bottom: 1.5rem;
+      	margin: 1.5rem 0rem ;
       	text-align: center;
       	color: #d93b3b;
       	text-shadow: 1px 1px 0 #fff;
@@ -48,7 +53,7 @@ import PhaserGame from '../components/PhaserGame.jsx';
       	background-color: white;
       	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       	border-radius: 16px;
-      	padding: 1rem;
+      	padding: 20;
       	display: flex;
       	justify-content: center;
       	align-items: center;
